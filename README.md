@@ -1,2 +1,2 @@
-# jamslam
+# slamjam
 cmon and slam
