@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7acaaf4-43af-47d2-b9f4-c257233fc3fe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/403.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/add_to_basket_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/add_to_basket_form_compact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/add_to_wishlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/messages/addition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/address/address_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/address/address_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/address/address_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/alerts/partials/alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/emails/alert_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/alert_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/alert_messages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/emails/alert_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/anon_order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/automaticproductlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/messages/band_created.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/messages/band_deleted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/messages/band_updated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/base.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/baseaccountpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/baseproductlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/basket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/partials/basket_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/partials/basket_quick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/partials/basket_totals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/benefit_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/brand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/browse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/orders/partials/bulk_edit_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/category_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/category_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/category_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/category_row_actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/profile/change_password_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/checkout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_email_changed_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_email_changed_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_email_changed_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_order_placed_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_order_placed_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_order_placed_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_password_changed_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_password_changed_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_password_changed_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_password_reset_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_password_reset_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_password_reset_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_registration_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_registration_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_registration_sms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/emails/commtype_registration_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/condition_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/emails/confirmation_body.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/emails/confirmation_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/flatpages/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/pages/delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/alerts/delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/delete_pagepromotion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/notifications/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/comms/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/offer/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/ellipses_pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/email/email_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/email/email_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/extrascripts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/search/partials/facet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/footer_checkout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/form_field.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/form_fields.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/form_fields_inline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/gateway.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/google_analytics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/google_analytics_transaction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/handpickedproductlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/handpickedproductlist_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/image_input_widget.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/pages/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/search/indexes/product/item_text.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/layout_2_col.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/layout_3_col.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/orders/line_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/messages/line_restored.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/messages/line_saved.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/notifications/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/comms/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/alerts/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/offer/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/login_forbidden.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/login_registration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/alerts/message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/metadata_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/messages/method_created.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/messages/method_deleted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/messages/method_updated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/mini_basket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/multiimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partials/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/partials/nav_account.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/nav_accounts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/nav_checkout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/nav_primary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/messages/new_total.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/offer_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/offer_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/messages/offer_gained.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/offer_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/basket/messages/offer_lost.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/offer_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/open_basket_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/order/order_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/orders/order_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/order/order_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/orders/order_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/order_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/page_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/pagepromotion_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/search/partials/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_manage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_user_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_user_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/partner_user_select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/registration/password_reset_complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/registration/password_reset_confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/registration/password_reset_done.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/registration/password_reset_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/payment_details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_class_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_class_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_class_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partials/product_images.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/product_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_row_actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_row_image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_row_stockrecords.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_row_title.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_row_variants.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/messages/product_saved.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/product_update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/profile/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/profile/profile_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/profile/profile_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/progress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/promotions/promotion_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/offer/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/ranges/range_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/ranges/range_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/ranges/range_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/ranges/range_product_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/ranges/messages/range_products_saved.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/ranges/messages/range_saved.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/rawhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/history/recently_viewed_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/registration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/restrictions_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/search/results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/review.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reviews/review_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/reviews/review_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/reviews/review_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/reviews/review_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reviews/review_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/reviews/review_product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/reviews/partials/review_stars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reviews/review_update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/pages/messages/saved.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/partials/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/shipping_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/shipping_methods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/orders/shippingaddress_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/promotions/singleproduct.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/orders/statistics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/step_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partials/stock_info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/catalogue/partials/stock_record.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/catalogue/stockalert_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/submitted_basket_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/offers/summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/thank_you.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/pages/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/alerts/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/user_address_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/checkout/user_address_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/user_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/user_row_actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/users/user_row_checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/partners/messages/user_unlinked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/vouchers/voucher_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/vouchers/voucher_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/vouchers/voucher_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/vouchers/voucher_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/reports/partials/voucher_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/weight_band_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/weight_band_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/weight_based_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/weight_based_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/weight_based_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/dashboard/shipping/weight_based_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/wishlists/wishlists_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/wishlists/wishlists_delete_product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/wishlists/wishlists_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/wishlists/wishlists_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slamjam/slamjam/templates/oscar/customer/wishlists/wishlists_list.html" />
+    </list>
+    <ignored path="slamjam.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="slamjam" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slamjam/slamjam/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2664">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <folding>
+                <element signature="e#318#327#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_2_col.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/oscar/lib/python2.7/site-packages/oscar/templates/oscar/layout_2_col.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667" vertical-offset="90" max-vertical-offset="918">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slamjam/slamjam/templates/oscar/offer/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slamjam/slamjam/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="360">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slamjam/slamjam/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/slamjam/slamjam/urls.py" />
+        <option value="$PROJECT_DIR$/slamjam/slam/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/slamjam/slam/views.py" />
+        <option value="$PROJECT_DIR$/slamjam/promotions/views.py" />
+        <option value="$PROJECT_DIR$/slamjam/slamjam/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slamjam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="offer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/cs3240-f14-team25" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/slamjam/slamjam/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/slamjam/promotions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slamjam" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slamjam" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slamjam" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slamjam" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slamjam" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="slamjam" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7acaaf4-43af-47d2-b9f4-c257233fc3fe" name="Default" comment="" />
+      <created>1424729906809</created>
+      <option name="number" value="Default" />
+      <updated>1424729906809</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12247557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2664">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/oscar/lib/python2.7/site-packages/oscar/templates/oscar/layout_2_col.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="360">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2664">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="360">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2664">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="360">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="773">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="773">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2664">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/oscar/lib/python2.7/site-packages/oscar/templates/oscar/partials/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024128687" vertical-offset="0" max-vertical-offset="746">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/oscar/lib/python2.7/site-packages/oscar/templates/oscar/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17872341" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/oscar/lib/python2.7/site-packages/oscar/templates/oscar/layout_2_col.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="90" max-vertical-offset="918">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slamjam/slamjam/templates/oscar/offer/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
