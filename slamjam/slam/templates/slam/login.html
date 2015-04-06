@@ -62,20 +62,24 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://localhost:8000/signup">Sign Up</a>
+                        <a class="page-scroll" href="/signup">Sign Up</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://localhost:8000/about">About</a>
+                        <a class="page-scroll" href="/about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
+                    {% if user %}
+
+                    {% else %}
                     <li>
-                        <a class="page-scroll" href="http://localhost:8000/login">Log In</a>
+                        <a class="page-scroll" href="/login">Log In</a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
