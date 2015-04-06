@@ -355,7 +355,52 @@ header .intro-text .intro-heading {
         line-height: 40px;
         text-align: center;
         color:black;
-    }        
+    }
+    header .signup {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }    
+    header .signup .signup-title {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        line-height: 40px;
+        text-align: left;
+    }
+    header .signup .signup-content {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 25px;
+        font-style: italic;
+        line-height: 40px;
+        text-align: left;
+        color:black;
+    }    
+    header .signup .signup-content h1 {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 25px;
+        font-style: italic;
+        line-height: 40px;
+        color:black;
+    }    
+    header .signup .signup-content h2 {
+        margin-bottom: 0px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 25px;
+        font-style: italic;
+        line-height: 40px;
+        color:white;
+    }
+    header .signup .signup-content p {
+        margin-bottom: 0px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 40px;
+        color:white;
+    }    
 }
 
 section {

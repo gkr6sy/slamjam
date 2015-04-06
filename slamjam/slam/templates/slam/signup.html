@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	{% load staticfiles %}
+    {% load staticfiles %}
 
-	<link rel="stylesheet" type="text/css" href="{% static 'slam/css/agency.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'slam/css/agency.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.min.css' %}" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Slamjam</title>
+    <title>Sign Up</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +35,28 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        function showHint(str) {
+            var xmlhttp;
+            if (str.length==0) { 
+                document.getElementById("txtHint2").innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange=function() {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+                    document.getElementById("txtHint2").innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET","gethint.php?q="+str,true);
+            xmlhttp.send();
+        }
+    </script>
 
 </head>
 
@@ -86,9 +108,25 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Slamjam!</div>
-                <div class="intro-heading">The Musical Search Engine</div>
+            <div class="signup">
+                <div class="signup-title">Register to our web application!</div>
+                <div class="signup-content">
+                    <form action="action_page.php">
+                    <h2>First name:</h2>
+                    <input type="text" name="firstname">
+                    <p>Suggestions: <span id="txtHint2"></span></p> 
+                    <h2>Last name:</h2>
+                    <input type="text" name="lastname">
+                    <br>
+                    <h2>Email address:</h2>
+                    <input type="text" name="email">
+                    <br>
+                    <h2>Password:</h2>
+                    <input type="text" name="password">
+                    <br>
+                    <h1><input type="submit" value="Submit"></h1>
+                    </form> 
+                </div>
             </div>
         </div>
     </header>
