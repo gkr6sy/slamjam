@@ -16,7 +16,9 @@ def signup(request):
        form = SignupForm(request.POST)
        if form.is_valid():
           user = User.objects.create_user(form['username'].value(), form['username'].value(), form['password'].value())
-          return HttpResponseRedirect('/home/')
+          return HttpResponseRedirect('/')
     else:
        form = SignupForm()
     return render(request, 'slam/signup.html', {'form':form})
+def login(request):
+    return render(request, 'slam/login.html')    
