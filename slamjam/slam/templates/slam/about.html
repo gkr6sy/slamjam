@@ -6,7 +6,7 @@
 
 	<link rel="stylesheet" type="text/css" href="{% static 'slam/css/agency.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.min.css' %}" />
+	<link rel="stylesheet" type="text/clss" href="{% static 'slam/css/bootstrap.min.css' %}" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,6 +35,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        function nameDescSY() {
+            document.getElementById("nameDescription1").innerHTML = "Seokyoul Yoon is a fourth year student that has a reasonable amount of experience on web application development through different course projects. The projects required him to develop the frontend with HTML and Javascript, and backend with PHP and SQL accessing the database.";
+        }
+        function nameDescJU() {
+            document.getElementById("nameDescription2").innerHTML = "Joseph Urbanek is a second year student with mild experience with general programming through course projects.  These projects included the use of Java, C++, and python for development.";
+        }
+        function nameDescGR() {
+            document.getElementById("nameDescription3").innerHTML = "Gene Rhee is a third year student with considerable experience with Python and moderate working experience with Django from use in both the classroom and in volunteer work with the Center for Open Science.";
+        }                
+    </script>
 
 </head>
 
@@ -52,7 +63,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Slamjam</a>
-                <img src="static/slam/img/slamjamlogo.png" alt="Mountain View" style="width:75px;height:50px">
+                <img src="static/slam/img/slamjamlogo.png" style="width:75px;height:50px">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,7 +79,7 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="http://localhost:8000/about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -86,38 +97,19 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Slamjam!</div>
-                <div class="intro-heading">about page?</div>
+            <div class="about">
+                <div class="about-title">Development Team</div>
+                <div class="about-content">The team for this project consists of following three computer science students in the University of Virginia: <br>
+                <button onclick="nameDescSY()">Seokyoul Yoon</button>
+                <button onclick="nameDescJU()">Joseph Urbanek</button>
+                <button onclick="nameDescGR()">Gene Rhee</button> <br>
+                <p id="nameDescription1"></p>
+                <p id="nameDescription2"></p>
+                <p id="nameDescription3"></p>
+                </div>
             </div>
         </div>
     </header>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

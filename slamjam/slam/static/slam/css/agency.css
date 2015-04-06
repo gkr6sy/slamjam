@@ -305,7 +305,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 50px;
         font-style: italic;
         line-height: 40px;
     }
@@ -318,6 +318,26 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+    header .about {
+        padding-top: 100px;
+        padding-bottom: 500px;
+    }    
+    header .about .about-title {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        line-height: 40px;
+        text-align: left;
+    }
+    header .about .about-content {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        line-height: 40px;
+        text-align: left;
+    }    
 }
 
 section {
