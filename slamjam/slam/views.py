@@ -2,7 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
-from .forms import SignupForm
+from django.contrib.auth import login as auth_login
+from .forms import SignupForm, LoginForm
 from django.http import HttpResponseRedirect
 
 # Create your views here.
@@ -21,4 +22,17 @@ def signup(request):
        form = SignupForm()
     return render(request, 'slam/signup.html', {'form':form})
 def login(request):
-    return render(request, 'slam/login.html')    
+    if request.method == 'POST':
+      form = LoginForm(request.POST)
+      if form.is_valid():
+         username = request.POST['username']
+         password = request.POST['password']
+         user = authenticate(username = username, password = password)
+         if user is not None:
+            auth_login(request, user)
+            return HttpResponseRedirect('/')
+         else:
+            print("Invalid Login")
+    else:
+      form = LoginForm()
+    return render(request, 'slam/login.html', {'form':form}) 
