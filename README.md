@@ -6,11 +6,6 @@
 4. Run "python manage.py runserver"
 5. On an Internet browser, go to “localhost:8080/” to view the website.
 
-Requirements for Part 2:
--	The logo and application name are on the top left of the website.
--	Mock links to other useful pages are on the top left of the website.
--	Other interactive functionalities are to be implemented in the future.
-
 Requirements for Part 3:
 - User Accounts
   1. New user can be signed-up in /signup
@@ -20,3 +15,8 @@ Requirements for Part 3:
   2. User log-in input box & system in /login
   3. UVA logo mouseover javascript in /about
   4. Development team description button javascript in /about
+
+Requirements for Part 2:
+-	The logo and application name are on the top left of the website.
+-	Mock links to other useful pages are on the top left of the website.
+-	Other interactive functionalities are to be implemented in the future.
