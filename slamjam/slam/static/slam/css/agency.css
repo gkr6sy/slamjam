@@ -322,6 +322,31 @@ header .intro-text .intro-heading {
         padding-top: 150px;
         padding-bottom: 400px;
     }    
+    header .about ul.gallery li {
+        text-align: center;
+        float: left;
+        margin: 0 10px;
+        padding: 10px;
+        border: 1px solid #000;
+        list-style: none;
+    }
+
+    header .about ul.gallery li a img {
+        float: left;
+        width: 100px;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    header .about ul.gallery li a:hover img {
+        -webkit-transform-origin: bottom left;
+        -moz-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        transform: scale(1.5) rotate(-20deg);
+        #skew(-10deg, 30deg) translate (20px, 20px)
+        box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    }    
     header .about .about-title {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
