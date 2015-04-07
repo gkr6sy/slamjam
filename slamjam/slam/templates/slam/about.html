@@ -84,11 +84,13 @@
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
-                    {% if user %}
-
-                    {% else %}
+                    {% if user.is_anonymous %}
                     <li>
                         <a class="page-scroll" href="/login">Log In</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a class="page-scroll" href="/logout">Log Out</a>
                     </li>
                     {% endif %}
                 </ul>
