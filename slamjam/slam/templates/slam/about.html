@@ -84,8 +84,10 @@
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
-                    {% if user %}
-
+                    {% if user.is_authenticated %}
+                    <li>
+                        <a class="page-scroll" href="/login">Log Out</a>
+                    </li>
                     {% else %}
                     <li>
                         <a class="page-scroll" href="/login">Log In</a>
@@ -102,6 +104,11 @@
     <header>
         <div class="container">
             <div class="about">
+                {% if user.is_authenticated %}
+                    <p>Welcome, {{ user.get_username }}. Thanks for logging in.</p>
+                {% else %}
+                    <p>Welcome, new user. Please log in.</p>
+                {% endif %}                
                 <div class="about-title">Development Team</div>
                 <ul class="gallery">
                     <li><a href="#"><img src="/static/slam/img/uva.png"></a></li>

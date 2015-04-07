@@ -35,4 +35,4 @@ def login(request):
             print("Invalid Login")
     else:
       form = LoginForm()
-    return render(request, 'slam/login.html', {'form':form}) 
+    return render(request, 'slam/login.html', {'form':form})
