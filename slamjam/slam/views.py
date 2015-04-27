@@ -12,6 +12,8 @@ def home(request):
     return render(request, 'slam/index.html')
 def about(request):
     return render(request, 'slam/about.html')
+def search(request):
+    return render(request, 'slam/search.html')    
 def signup(request):
     if request.method == 'POST':
        form = SignupForm(request.POST)
