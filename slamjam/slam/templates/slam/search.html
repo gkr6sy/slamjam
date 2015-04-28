@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sign Up</title>
+    <title>Search Music</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +35,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+
+    </script>
 
 </head>
 
@@ -71,14 +74,12 @@
                         <a class="page-scroll" href="/about">About</a>
                     </li>
                     {% if user.is_authenticated %}
-
-                    {% else %}
                     <li>
-                        <a class="page-scroll" href="/login">Log In</a>
+                        <a class="page-scroll" href="/login">Log Out</a>
                     </li>
                     {% else %}
                     <li>
-                        <a class="page-scroll" href="/logout">Log Out</a>
+                        <a class="page-scroll" href="/login">Log In</a>
                     </li>
                     {% endif %}
                 </ul>
@@ -91,15 +92,20 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="signup">
-                <div class="signup-title">Log In</div><br>
-                <div class="signup-content">
-                    <form method="post">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                        <br>
-                        <input type="submit" value="Submit">
-                    </form> 
+            <div class="about">
+                {% if user.is_authenticated %}
+                    <p>Welcome, {{ user.get_username }}. Thanks for logging in.</p>
+                {% else %}
+                    <p>Welcome, new user. Please log in.</p>
+                {% endif %}                
+                <div class="about-title">Search For Music!</div>
+                <ul class="gallery">
+                    <li><a href="#"><img src="/static/slam/img/slamjamlogo.png"></a></li>
+                </ul>
+                <div class="about-content">Upload a mp3 file to search for music: <br>
+                <h1>
+                  <input type="file" name="pic" accept="audio/*">
+                </h1>
                 </div>
             </div>
         </div>

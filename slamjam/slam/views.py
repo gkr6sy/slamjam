@@ -8,12 +8,17 @@ from django.http import HttpResponseRedirect
 
 # Create your views here.
 
+
 def home(request):
     return render(request, 'slam/index.html')
 
 
 def about(request):
     return render(request, 'slam/about.html')
+
+
+def search(request):
+    return render(request, 'slam/search.html')    
 
 
 def signup(request):
@@ -51,3 +56,4 @@ def exit(request):
     logout(request)
     print("Successfully logged out.")
     return HttpResponseRedirect('/')
+
