@@ -18,6 +18,15 @@ def about(request):
 
 
 def search(request):
+    if request.method == 'POST':
+        form = SearchForm(request.POST, request.FILES)
+        if form.is_valid():
+            if request.FILES:
+                song = request.FILES[song]
+                # This is where we'd input the song into the system for parsing
+                print("We got a song")
+                url = ""
+                return render(request, 'slam/results.html', {'url':url})
     return render(request, 'slam/search.html')    
 
 
@@ -32,7 +41,7 @@ def signup(request):
             return HttpResponseRedirect('/')
     else:
         form = SignupForm()
-    return render(request, 'slam/signup.html', {'form':form})
+        return render(request, 'slam/signup.html', {'form':form})
 
 
 def login(request):
@@ -49,7 +58,7 @@ def login(request):
                 print("Invalid Login")
     else:
         form = LoginForm()
-    return render(request, 'slam/login.html', {'form':form})
+        return render(request, 'slam/login.html', {'form':form})
 
 
 def exit(request):
