@@ -3,8 +3,103 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-</head>
-<body>
+    {% load staticfiles %}
 
+    <link rel="stylesheet" type="text/css" href="{% static 'slam/css/agency.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'slam/css/bootstrap.min.css' %}" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Search Music</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    </script>
+</head>
+<body id="page-top" class="index">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://localhost:8000/">Slamjam</a>
+                <img src="/static/slam/img/slamjamlogo.png" alt="Mountain View" style="width:75px;height:50px">
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/signup">Sign Up</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/search">Search Music</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/about">About</a>
+                    </li>
+                    {% if user.is_authenticated %}
+                    <li>
+                        <a class="page-scroll" href="/login">Log Out</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a class="page-scroll" href="/login">Log In</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<div id="putTheWidgetHere"></div>
+    <!-- SoundCloud API -->
+
+<script src="//connect.soundcloud.com/sdk.js"></script>
+<script>
+  SC.initialize({
+    client_id: "ed1308693fe2b33d4efc12b0e797ce18",
+  });
+</script>
+
+    <script type="text/JavaScript">
+        var link = "{{ url }}";
+        SC.oEmbed(link, {color: "ff0066"},  document.getElementById("putTheWidgetHere"));
+    </script>
 </body>
 </html>

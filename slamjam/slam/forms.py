@@ -14,4 +14,3 @@ class LoginForm(forms.Form):
 
 class SearchForm(forms.Form):
     song = forms.FileField()
-

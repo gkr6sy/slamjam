@@ -104,10 +104,10 @@
                 </ul>
                 <div class="about-content">Upload a mp3 file to search for music: <br>
                 <h1>
-                    <form action="" method="post">
+                    <form action="" method="post" enctype="multipart/form-data">
                         {% csrf_token %}
                         {{ form }}
-                        <p><input type="file" name="pic" accept="audio/*"></p>
+                        <!-- <p><input type="file" name="pic" accept="audio/*"></p> -->
                         <p><input type="submit" value="Search"/></p>
                     </form>
                 </h1>

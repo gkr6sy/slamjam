@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, logout
 from django.contrib.auth import login as auth_login
-from .forms import SignupForm, LoginForm
+from .forms import SignupForm, LoginForm, SearchForm
 from django.http import HttpResponseRedirect
 
 # Create your views here.
@@ -22,12 +22,14 @@ def search(request):
         form = SearchForm(request.POST, request.FILES)
         if form.is_valid():
             if request.FILES:
-                song = request.FILES[song]
+                # music = request.FILES['song']
                 # This is where we'd input the song into the system for parsing
                 print("We got a song")
-                url = ""
-                return render(request, 'slam/results.html', {'url':url})
-    return render(request, 'slam/search.html')    
+                url = 'http://soundcloud.com/forss/sets/soulhack'
+                return render(request, 'slam/results.html', {"url": url})
+    else:
+        form = SearchForm()
+    return render(request, 'slam/search.html', {'form': form})
 
 
 def signup(request):
@@ -41,7 +43,7 @@ def signup(request):
             return HttpResponseRedirect('/')
     else:
         form = SignupForm()
-        return render(request, 'slam/signup.html', {'form':form})
+    return render(request, 'slam/signup.html', {'form':form})
 
 
 def login(request):
@@ -58,7 +60,7 @@ def login(request):
                 print("Invalid Login")
     else:
         form = LoginForm()
-        return render(request, 'slam/login.html', {'form':form})
+    return render(request, 'slam/login.html', {'form':form})
 
 
 def exit(request):
