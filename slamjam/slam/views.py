@@ -22,8 +22,9 @@ def search(request):
         form = SearchForm(request.POST, request.FILES)
         if form.is_valid():
             if request.FILES:
-                # music = request.FILES['song']
+                music = request.FILES['song']
                 # This is where we'd input the song into the system for parsing
+
                 print("We got a song")
                 url = 'http://soundcloud.com/forss/sets/soulhack'
                 return render(request, 'slam/results.html', {"url": url})
